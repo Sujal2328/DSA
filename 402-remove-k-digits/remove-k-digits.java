@@ -10,7 +10,7 @@ class Solution {
             st.addLast(ch);
         }
 
-        // Important for cases like "9", k=1 or "1234", k=2
+        
         while (k > 0 && !st.isEmpty()) {
             st.removeLast();
             k--;
